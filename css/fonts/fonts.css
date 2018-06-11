@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'andale_monoregular';
+    src: url('andale-mono-webfont.woff2') format('woff2'),
+         url('andale-mono-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'din_alternatebold';
+    src: url('din-alternate-bold-webfont.woff2') format('woff2'),
+         url('din-alternate-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'din_condensedbold';
+    src: url('din_condensed_bold-webfont.woff2') format('woff2'),
+         url('din_condensed_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

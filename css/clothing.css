@@ -1,0 +1,114 @@
+/**************
+
+**************/
+
+#entrance {
+  background-image: url(../img/home/entrance.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.entrance_text_container {
+  position: absolute;
+  bottom: 20%;
+  left: 50%;
+  transform: translate(-50%,0%);
+}
+
+.entrance_text {
+  font-size: 18px;
+  color: rgba(205, 23, 25, 1);
+  text-align: center;
+  min-width: 770px;
+
+}
+
+.fifty {
+  width: 50%;
+  overflow: hidden;
+  position: relative;
+}
+
+.fifty_red {
+  width: 50%;
+  overflow: hidden;
+  position: relative;
+  background-color: rgba(205, 23, 25, 1);
+}
+
+.corner_pic {
+  position: absolute;
+  height: 140px;
+  bottom: 4%;
+  left:4%;
+}
+
+.corner_pic_right {
+  position: absolute;
+  height: 140px;
+  bottom: 4%;
+  right: 4%;
+}
+
+.landing_img {
+  height: auto;
+  max-width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: 50% 50%;
+    object-position: 50% 50%;
+    width: 100%;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.fifty_text_left {
+  position: absolute;
+  top: 20%;
+  left: 14%;
+}
+
+.fifty_text a {
+  display: block;
+  color: #FFF;
+
+}
+
+.category {
+  text-align: right;
+  font-family: 'din_alternatebold';
+  font-size: 20px;
+}
+
+.shop_now {
+    font-size: 18px;
+    font-family: 'andale_monoregular';
+    margin-right: 2px;
+    text-align: right;
+}
+
+.underscore {
+  margin-right: 6px;
+}
+
+.blink {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+
+.girl_container {
+  position: relative;
+}
+
+.girl {
+  position: absolute;
+  bottom: 0;
+}

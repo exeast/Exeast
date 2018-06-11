@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/fonts/fonts.css">
+    <link rel="stylesheet" href="css/cart.css">
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+
+
+    <title>EXEAST</title>
+  </head>
+  <body>
+
+    <header>
+      <div class="header_left">
+        <a href="home.html">
+          <img src="img/exeast_logo.png" class="exeast_logo" alt="">
+        </a>
+        <div class="header_menu">
+        <nav>
+          <a href="newin.html">NEW IN</a>
+          <a href="designers.html">DESIGNERS</a>
+          <a href="clothing.html">CLOTHING</a>
+          <a href="#">EDITORIALS</a>
+          <a href="about.html">ABOUT</a>
+          <a href="contact.html">CONTACT</a>
+
+        </nav>
+      </div>
+      </div>
+      <div class="header_right">
+        <a href="#"><img src="svg/facebook.svg" class="right_icon"></a>
+        <a href="#"><img src="svg/insta.svg" class="right_icon"></a>
+        <a href="#"><img src="svg/cart.svg" class="right_icon cart"></a>
+      </div>
+    </header>
+
+<section id="cart">
+
+
+  <div class="shopping-cart">
+
+    <div class="column-labels">
+      <label class="product-image">Image</label>
+      <label class="product-details">Product</label>
+      <label class="product-price">Price</label>
+      <label class="product-quantity">Quantity</label>
+      <label class="product-removal">Remove</label>
+      <label class="product-line-price">Total</label>
+    </div>
+
+    <div class="product">
+      <div class="product-image">
+        <img src="img/newin/hs1.png">
+      </div>
+      <div class="product-details">
+        <div class="product-title">Hyein Seo</div>
+        <p class="product-description">Patchwork Bomber Jacket</p>
+        <p>OS</p>
+      </div>
+      <div class="product-price">520</div>
+      <div class="product-quantity">
+        <input type="number" value="1" min="1">
+      </div>
+      <div class="product-removal">
+        <button class="remove-product">
+          Remove
+        </button>
+      </div>
+      <div class="product-line-price">520</div>
+    </div>
+
+    <div class="product">
+      <div class="product-image">
+        <img src="img/newin/cy2.png">
+      </div>
+      <div class="product-details">
+        <div class="product-title">Cytokinin</div>
+        <p class="product-description">Graphic Tee</p>
+        <p>XS</p>
+      </div>
+      <div class="product-price">160</div>
+      <div class="product-quantity">
+        <input type="number" value="1" min="1">
+      </div>
+      <div class="product-removal">
+        <button class="remove-product">
+          Remove
+        </button>
+      </div>
+      <div class="product-line-price">160</div>
+    </div>
+
+    <div class="totals">
+      <div class="totals-item">
+        <label>Subtotal</label>
+        <div class="totals-value" id="cart-subtotal">680</div>
+      </div>
+      <div class="totals-item">
+        <label>Taxes</label>
+        <div class="totals-value" id="cart-tax">136</div>
+      </div>
+      <div class="totals-item">
+        <label>Shipping</label>
+        <div class="totals-value" id="cart-shipping">30.00</div>
+      </div>
+      <div class="totals-item totals-item-total">
+        <label>Grand Total</label>
+        <div class="totals-value" id="cart-total">846</div>
+      </div>
+    </div>
+
+        <a href="payment.html" class="checkout">Checkout</a>
+
+  </div>
+
+</section>
+
+
+  </body>
+  </html>

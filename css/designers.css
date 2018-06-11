@@ -1,0 +1,41 @@
+html, body {
+  height: auto;
+}
+
+#designers {
+  background-color: rgba(205, 23, 25, 1);
+  color: #FFF;
+  display: flex;
+  padding: 80px 32px;
+  height: auto;
+  min-height: calc(100vh - 52px);
+}
+
+
+.grid_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 40px 20px;
+    height: 100%;
+    width: 100%;
+}
+
+.letter {
+    font-family: 'din_condensedbold';
+  font-size: 40px;
+  color: #000;
+  line-height: 20px;
+}
+
+.brands {
+  margin-left: 40px;
+  font-size: 14px;
+}
+
+.hyein_brand {
+  margin-left: 40px;
+  color: #FFF;
+  font-size: 14px;
+
+}

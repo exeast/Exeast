@@ -1,0 +1,63 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    }
+
+    html, body {
+    height: 100%;
+  width: 100%;
+  }
+
+
+body {
+  background-color: rgba(205, 23, 25, 1);
+  position: relative;
+}
+
+/*
+BODY ANIMATION
+*/
+
+/* body {
+  animation-duration: 1s;
+  animation-name: blink;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes blink {
+  from {
+  background-color: rgba(205, 23, 25, 1);
+  }
+  to {
+  background-color: #000;
+  }
+} */
+
+/**/
+
+
+
+.exeast_logo_index {
+  width: 230px;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%,0%);
+}
+
+.crying_woman {
+  width: 40%;
+  max-width: 600px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%,0%);
+}

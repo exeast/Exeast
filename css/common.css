@@ -1,0 +1,106 @@
+/**************
+    GENERAL SETUP
+**************/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    }
+
+body {
+    font-family: 'andale_monoregular';
+    background-color: rgba(205, 23, 25, 1);
+    color: #FFF;
+}
+
+a {
+  text-decoration: none;
+}
+
+/**************
+    HEADER
+**************/
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: auto;
+    background-color: #FFF;
+    z-index: 10;
+    display: flex;
+    padding: 10px 32px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.exeast_logo {
+  width: 130px;
+  padding-top: 6px;
+}
+
+nav a {
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+    font-family: 'andale_monoregular';
+    font-size: 13px;
+}
+
+.header_left {
+  display: flex;
+  align-items: center;
+}
+
+.header_menu {
+  padding-left: 22px;
+}
+
+.header_right {
+  margin-left: auto;
+  padding-top: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.header_right a {
+  padding: 0 8px;
+}
+
+.header_right a:last-child {
+  padding-right: 0;
+}
+
+.cart {
+  width: 18px;
+  padding-bottom: 2px;
+}
+
+.selected {
+  color: rgba(205, 23, 25, 1);
+}
+
+/**************
+    SECTIONS SETUP
+**************/
+
+section {
+  height: 100vh;
+  height: calc(100vh - 52px);
+  width: 100vw;
+  display: flex;
+}
+
+section:first-of-type {
+  margin-top: 52px;
+}
+
+/**************
+
+**************/

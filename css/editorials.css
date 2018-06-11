@@ -1,0 +1,23 @@
+#editorials {
+  position: relative;
+
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text {
+    font-family: 'din_alternatebold';
+    font-size: 20px;
+    letter-spacing: 0.6px;
+  }
+
+
+.coming_girl {
+  position: absolute;
+  height: 80vh;
+  right: -6%;
+  bottom: 2%;
+
+}

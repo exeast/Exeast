@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="21" height="15" viewBox="0 0 21 15">
+  <defs>
+    <rect id="french_flag-a" width="21" height="15"/>
+    <rect id="french_flag-c" width="21" height="15"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <rect width="21" height="15" fill="#FFF" fill-rule="nonzero"/>
+    <mask id="french_flag-b" fill="#fff">
+      <use xlink:href="#french_flag-a"/>
+    </mask>
+    <rect width="7" height="15" fill="#435DB0" fill-rule="nonzero" mask="url(#french_flag-b)"/>
+    <g>
+      <mask id="french_flag-d" fill="#fff">
+        <use xlink:href="#french_flag-c"/>
+      </mask>
+      <rect width="7" height="15" x="14" fill="#ED4C49" fill-rule="nonzero" mask="url(#french_flag-d)"/>
+    </g>
+  </g>
+</svg>

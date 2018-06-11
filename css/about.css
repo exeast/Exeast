@@ -1,0 +1,26 @@
+#about {
+  background-color: rgba(205, 23, 25, 1);
+  color: #FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  width: 430px;
+  font-family: 'andale_monoregular';
+  font-size: 18px;
+  position: relative;
+  text-transform: uppercase;
+}
+
+p:first-of-type {
+  margin-bottom: 30px;
+}
+
+.def {
+  position: absolute;
+  width: 160px;
+  left: -180px;
+  top: -20px;
+}
